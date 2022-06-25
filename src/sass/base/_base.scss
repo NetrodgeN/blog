@@ -1,0 +1,53 @@
+h1{
+  font-weight: 700;
+  font-size:4.4rem;
+  line-height: 60px;
+  @include media-tablet {
+    font-size:3.4rem;
+    line-height: 40px;
+  }
+  @include mobile-big-width {
+    font-size:3.2rem;
+  }
+  }
+ul{
+  list-style: none;
+}
+html, body{
+  font-size: 10px;
+  height: 100%;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+  font-size: 10px;
+  color:#21243D;
+}
+#root{
+  height: 100%;
+}
+.wrapper{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main{
+  /*  прижимаем футер к низу*/
+  flex: 1 1 auto;
+}
+.button{
+  width: 208px;
+  height: 47px;
+  border:none;
+  background-color: #FF6464;
+  border-radius: 2px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color:#fff;
+}

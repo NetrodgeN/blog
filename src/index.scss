@@ -1,0 +1,13 @@
+@import-normalize;
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+@import "sass/abstracts/constants";
+@import "sass/abstracts/mixin";
+
+
+@import "sass/base/base";
+
+@import "sass/_header.scss";
+@import "sass/getStarted";
+@import "sass/layout/recentPosts-home";
+@import 'sass/layout/featured';
