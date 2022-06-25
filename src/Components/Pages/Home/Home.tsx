@@ -1,6 +1,6 @@
 import React from 'react';
 import avatar from './avatar.jpg';
-import FeaturedWorks from '../FeaturedWorks';
+import FeaturedWorks from './sections/FeaturedWorks';
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <div className='get-started__container'>
           <div className='get-started__content'>
             <div className='block-text'>
-              <h1 className='block-text__title'>Привет, <br />меня зовут Ярослав,<br />frontend разработчик</h1>
+              <h1 className='block-text__title'>Привет, <br />меня зовут Ярослав<br />Я frontend разработчик</h1>
               <div className='block-text__text'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                 sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
               </div>

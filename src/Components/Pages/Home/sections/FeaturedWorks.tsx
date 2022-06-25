@@ -1,5 +1,5 @@
 import React from 'react';
-import primer from './Pages/primer.png';
+import primer from './primer.png';
 
 const FeaturedWorks = () => {
   return (

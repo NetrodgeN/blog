@@ -7,7 +7,8 @@
 
 @import "sass/base/base";
 
-@import "sass/_header.scss";
-@import "sass/getStarted";
+@import "sass/components/header";
+@import "sass/layout/getStarted";
 @import "sass/layout/recentPosts-home";
 @import 'sass/layout/featured';
+@import "sass/components/footer";

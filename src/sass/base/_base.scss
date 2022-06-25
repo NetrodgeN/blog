@@ -1,53 +1,62 @@
-h1{
+h1 {
   font-weight: 700;
-  font-size:4.4rem;
+  font-size: 4.4rem;
   line-height: 60px;
   @include media-tablet {
-    font-size:3.4rem;
+    font-size: 3.4rem;
     line-height: 40px;
   }
   @include mobile-big-width {
-    font-size:3.2rem;
+    font-size: 3.2rem;
   }
-  }
-ul{
+}
+
+ul {
   list-style: none;
 }
-html, body{
+
+html, body {
   font-size: 10px;
   height: 100%;
   line-height: 1;
   scroll-behavior: smooth;
 }
 
-body{
+body {
   margin: 0;
   font-family: 'Heebo', sans-serif;
   font-size: 10px;
-  color:#21243D;
+  color: #21243D;
 }
-#root{
+
+#root {
   height: 100%;
 }
-.wrapper{
+
+.wrapper {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-.main{
-  /*  прижимаем футер к низу*/
+.main {
   flex: 1 1 auto;
 }
-.button{
+
+.button {
   width: 208px;
   height: 47px;
-  border:none;
+  border: none;
   background-color: #FF6464;
   border-radius: 2px;
   font-family: 'Heebo', sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color:#fff;
+  color: #fff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #d95353;
+  }
 }
